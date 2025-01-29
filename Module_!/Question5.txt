@@ -1,9 +1,0 @@
-evesh@Devesh:~/work/module1/dir1$ touch file file1 file2
-devesh@Devesh:~/work/module1/dir1$ ls -lt > output
-devesh@Devesh:~/work/module1/dir1$ cat output
-total 0
--rw-rw-r-- 1 devesh devesh 0 Jan 29 06:02 output
--rw-rw-r-- 1 devesh devesh 0 Jan 29 06:01 file
--rw-rw-r-- 1 devesh devesh 0 Jan 29 06:01 file1
--rw-rw-r-- 1 devesh devesh 0 Jan 29 06:01 file2
-devesh@Devesh:~/work/module1/dir1$ 

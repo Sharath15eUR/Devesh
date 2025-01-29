@@ -1,9 +1,0 @@
-devesh@Devesh:~/work/module1$ touch file1
-devesh@Devesh:~/work/module1$ ls -l
-total 0
--rw-rw-r-- 1 devesh devesh 0 Jan 28 22:06 file1
-devesh@Devesh:~/work/module1$ chmod g-w file1
-devesh@Devesh:~/work/module1$ ls -l
-total 0
--rw-r--r-- 1 devesh devesh 0 Jan 28 22:06 file1
-devesh@Devesh:~/work/module1$ 
