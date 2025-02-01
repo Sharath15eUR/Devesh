@@ -1,1 +1,0 @@
--rw-rw-r-- 1 devesh devesh 16483 Feb  1 14:38 geekfile.txt
