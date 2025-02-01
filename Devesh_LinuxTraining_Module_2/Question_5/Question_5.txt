@@ -1,0 +1,4 @@
+devesh@Devesh:~/work$ netstat -rn | awk 'NR > 2 {print $2}' | uniq | sort -n
+0.0.0.0
+10.0.2.2
+devesh@Devesh:~/work$
