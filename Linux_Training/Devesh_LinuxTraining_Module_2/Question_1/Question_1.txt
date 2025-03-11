@@ -1,0 +1,17 @@
+devesh@Devesh:~/work$ ls -l
+total 40
+-rw-rw-r-- 1 devesh devesh   181 Jan 30 12:00 file1
+-rw-rw-r-- 1 devesh devesh    76 Jan 29 22:29 file2
+-rw-rw-r-- 1 devesh devesh    68 Jan 29 21:22 file3
+-rw-rw-r-- 1 devesh devesh    74 Jan 29 22:28 file4
+-rw-rw-r-- 1 devesh devesh 16483 Feb  1 14:38 geekfile.txt
+-rw-rw-r-- 2 devesh devesh     0 Jan 27 10:14 hard_test_link
+drwxrwxr-x 4 devesh devesh  4096 Jan 29 05:58 module1
+-rw-rw-r-- 2 devesh devesh     0 Jan 27 10:14 test
+lrwxrwxrwx 1 devesh devesh     4 Jan 27 10:15 test_link -> test
+devesh@Devesh:~/work$ ls -l | grep '^-' | awk '$5 > 1024 {print $0}'
+-rw-rw-r-- 1 devesh devesh 16483 Feb  1 14:38 geekfile.txt
+devesh@Devesh:~/work$ ls -l | grep '^-' | awk '$5 > 1024 {print $0}' > large_file.txt
+devesh@Devesh:~/work$ cat large_file.txt
+-rw-rw-r-- 1 devesh devesh 16483 Feb  1 14:38 geekfile.txt
+devesh@Devesh:~/work$

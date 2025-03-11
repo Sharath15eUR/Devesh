@@ -1,6 +1,0 @@
-devesh@Devesh:~/work/module1$ touch file
-devesh@Devesh:~/work/module1$ chmod +x file
-devesh@Devesh:~/work/module1$ ls -l
-total 0
--rwxrwxr-x 1 devesh devesh 0 Jan 28 22:05 file
-devesh@Devesh:~/work/module1$ 

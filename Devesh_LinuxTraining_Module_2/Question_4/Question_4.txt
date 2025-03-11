@@ -1,6 +1,0 @@
-devesh@Devesh:~/work$ ps aux --sort=-%mem | awk 'NR == 2{print $4}'
-14.3
-devesh@Devesh:~/work$ ps aux --sort=-%mem | awk 'NR == 2{print $2}'
-3204
-devesh@Devesh:~/work$ kill $(ps aux --sort=-%mem | awk 'NR == 2{print $2}')
-devesh@Devesh:~/work$
